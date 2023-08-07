@@ -1,0 +1,21 @@
+.checkBtn {
+  padding: .5rem 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 90px;
+  font-size: 15px;
+  font-weight: 800;
+}
+.triesDisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+input[type="text"]{
+  width: 150%;
+  height: 1.5rem;
+  border-radius: 20px;
+  text-align: center;
+}

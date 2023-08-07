@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+body{
+    background: url("/Images/wordle\ background.png") no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
+    box-shadow: inset 0px 0px 20px 1000px rgb(0 0 0 / 50%);
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 4.3rem;
+}
+.trynoheading{
+    width: 105px;
+    margin-right: 2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.lettercontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #00f0dc;
+    margin-right: 8rem;
+    width: 40%;
+    height: 4rem;
+    color: whitesmoke;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.textField{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tryBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#00f0dc;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.wordleheading{
+    font-size: 3rem;
+    color: #00ffcc;
+    text-decoration: underline;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.triesDisplay p{
+    color: crimson;
+    font-weight: 700;
 }

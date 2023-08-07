@@ -1,0 +1,12 @@
+.letterBox{
+    padding: 0.7rem 0.5rem;
+    margin: 5px;
+    width: 1.5rem;
+    text-align: center;
+}
+.letterBox h3{
+    margin : 0;
+}
+.checkBtn{
+    margin-top: 2rem;
+}
